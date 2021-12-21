@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}
+.list{
+  width: 50%;
+  background-color: #476ebb;
+  margin-top:16px;
+  color: rgb(34, 34, 34);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+}
+.list a{
+  text-decoration: none;
+  color:rgb(34, 34, 34);
+}
+.text{
+ margin-left: 16px;
+}
+form{display: flex;
+  justify-content: center;
+  
+  width: 100%;
+}
+form button{
+  border:none;
+  width: 5%;
+
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #476ebb;
+}
+form input{
+  height: 30px;
+  width: 40%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 2px solid #476ebb;
+  padding: 5px;
+  
+}
